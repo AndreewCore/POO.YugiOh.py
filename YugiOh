@@ -1,3 +1,11 @@
+class CartaYugiOh:
+  def _init_ (self, nombre: str, descripcion: str):
+    self.nombre = nombre
+    self.descripcion = descripcion
+
+  def activar (self):
+    pass   "para activar una carta lo sobresscribiran los hijos"
+
 class CartaMonstruo(CartaYugiOh):
     def __init__(self, nombre: str, descripcion: str, ataque: int, defensa: int, tipo: TipoMonstruo, atributo: Atributo, posicion: Posicion = "defensa", boca_arriba: bool = False):
         super().__init__(nombre, descripcion)
@@ -32,3 +40,19 @@ class CartaMonstruo(CartaYugiOh):
             print(f"{self.nombre} ahora está boca arriba.")
         else:
             print(f"{self.nombre} ya está boca arriba.")
+
+class TipoMonstruo(Enum):
+    LANZADOR_DE_CONJUROS = "L"
+    DRAGON = "D"
+    ZOMBI = "Z"
+    GUERRERO = "G"
+    BESTIA = "B"
+    DEMONIO = "O"
+
+class AtributoMonstruo(Enum):
+    OSCURIDAD = "Oscuridad"
+    LUZ = "Luz"
+    TIERRA = "Tierra"
+    AGUA = "Agua"
+    FUEGO = "Fuego"
+    VIENTO = "Viento"
