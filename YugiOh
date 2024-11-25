@@ -1,3 +1,6 @@
+import random
+from enum import Enum
+
 class CartaYugiOh:
   def _init_ (self, id, vida, nombre, descripcion, ataque, defensa):
     self.id = id
