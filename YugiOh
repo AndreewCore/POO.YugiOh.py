@@ -1,0 +1,34 @@
+class CartaMonstruo(CartaYugiOh):
+    def __init__(self, nombre: str, descripcion: str, ataque: int, defensa: int, tipo: TipoMonstruo, atributo: Atributo, posicion: Posicion = "defensa", boca_arriba: bool = False):
+        super().__init__(nombre, descripcion)
+        if not isinstance(tipo, TipoMonstruo):
+            raise ValueError("El tipo debe ser una instancia de TipoMonstruo")
+        if not isinstance(atributo, AtributoMonstruo):
+            raise ValueError("El atributo debe ser una instancia de AtributoMonstruo")
+        self.ataque = ataque
+        self.defensa = defensa
+        self.tipo = tipo
+        self.atributo = atributo
+        self.posicion = posicion  # "ataque" o "defensa"
+        self.boca_arriba = boca_arriba  # True = boca arriba, False = boca abajo
+        self.ha_atacado = False  # Nuevo atributo para rastrear si el monstruo ha atacado
+
+
+    def mostrar_informacion(self):
+        print(f"{self.nombre} (ATK: {self.ataque}, DEF: {self.defensa}) está en el campo.")
+
+    def cambiar_posicion(self):
+        """Cambia la posición entre ataque y defensa."""
+        if self.boca_arriba:
+            self.posicion = "ataque" if self.posicion == "defensa" else "defensa"
+            print(f"La posición de {self.nombre} ahora es {self.posicion}.")
+        else:
+            print(f"No puedes cambiar la posición de {self.nombre} porque está boca abajo.")
+
+    def voltear(self):
+        """Voltea la carta boca arriba."""
+        if not self.boca_arriba:
+            self.boca_arriba = True
+            print(f"{self.nombre} ahora está boca arriba.")
+        else:
+            print(f"{self.nombre} ya está boca arriba.")
