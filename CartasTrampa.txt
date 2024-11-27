@@ -1,0 +1,19 @@
+Tornado de Polvo, Bloquea el ataque de monstruos con atributo VIENTO., Viento
+Muralla de Fuego, Bloquea el ataque de monstruos con atributo FUEGO., Fuego
+Escudo de Agua, Bloquea el ataque de monstruos con atributo AGUA., Agua
+Luz Divina, Bloquea el ataque de monstruos con atributo LUZ., Luz
+Sombra Abisal, Bloquea el ataque de monstruos con atributo OSCURIDAD., Oscuridad
+Roca Inamovible, Bloquea el ataque de monstruos con atributo TIERRA., Tierra
+Tormenta Eléctrica, Bloquea el ataque de monstruos con atributo VIENTO., Viento
+Lava Ardiente, Bloquea el ataque de monstruos con atributo FUEGO., Fuego
+Prisión de Hielo, Bloquea el ataque de monstruos con atributo AGUA., Agua
+Espejo Divino, Bloquea el ataque de monstruos con atributo LUZ., Luz
+Oscuridad Envolvente, Bloquea el ataque de monstruos con atributo OSCURIDAD., Oscuridad
+Viento Cortante, Bloquea el ataque de monstruos con atributo VIENTO., Viento
+Escudo Igneo, Bloquea el ataque de monstruos con atributo FUEGO., Fuego
+Barrera Acuática, Bloquea el ataque de monstruos con atributo AGUA., Agua
+Luz Celestial, Bloquea el ataque de monstruos con atributo LUZ., Luz
+Niebla Oscura, Bloquea el ataque de monstruos con atributo OSCURIDAD., Oscuridad
+Murallas de Tierra, Bloquea el ataque de monstruos con atributo TIERRA., Tierra
+Vórtice de Viento, Bloquea el ataque de monstruos con atributo VIENTO., Viento
+Llama Ardiente, Bloquea el ataque de monstruos con atributo FUEGO., Fuego
