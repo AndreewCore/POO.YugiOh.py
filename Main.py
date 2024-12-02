@@ -48,7 +48,7 @@ while player.vida > 0 and bot.vida > 0:
             bot.declararBatallaBot(player)
 
         sorteo = 0 
-    
+
     turno += 1
 
 # Resultado final

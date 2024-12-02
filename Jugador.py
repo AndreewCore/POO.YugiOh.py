@@ -41,13 +41,6 @@ class Jugador:
         else:
             print(f"El deck de {self.nombre} está vacío. No puede robar más cartas.")
 
-    def estaDerrotado(self):
-        if self.vida < 0:
-            print(self.nombre + " ha sido derrotado y ha perdido.")
-            return True
-        return False
-
-
     def imprimirMano(self):
         print("-"*50 + " Mano de " + self.nombre + "-"*50)
         i = 0
@@ -88,8 +81,6 @@ class Bot(Jugador):
         else:
             print(f"El deck de {self.nombre} está vacío. No puede robar más cartas.")
 
-
-    @staticmethod
     def seleccionarObjetivo(tableroEnemigo):
         cartasEnemigas = []
         for carta in tableroEnemigo:
@@ -121,7 +112,6 @@ class Bot(Jugador):
             return cartasEnemigas[dañoDefensa.index(debilDefensa)]
         else:
             return None
-
 
     def jugarManoBot(self):
         

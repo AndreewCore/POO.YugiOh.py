@@ -7,11 +7,6 @@ class Juego:
        self.jugador = jugador
        self.consola = consola
 
-    def mostrarEstado(self):
-        print(f"Turno actual: {self.turno.nombre}")
-        print(f"Deck Jugador: {len(self.jugador.deck)} cartas restantes")
-        print(f"Deck Máquina: {len(self.consola.deck)} cartas restantes")
-
     @staticmethod
     def faseTomarCarta(jugador):
         input("Presione Enter para robar una carta.")
@@ -201,7 +196,7 @@ class Juego:
 
         jugador.imprimirTablero()
     
-
+    @staticmethod
     def faseBatalla(jugador1, jugador2):
     # Inicialización de listas para clasificar las cartas del tablero de jugador1
         t_monstruos_jugador = []

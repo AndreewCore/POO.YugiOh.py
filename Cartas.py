@@ -18,12 +18,6 @@ class CartaMonstruo(CartaYugiOh):
         self.tipo_atributo = tipo_atributo
         self.pos_atk = False
         self.inventario = []
-        
-    def cambiarModo(self, modo):
-        if modo == "ataque":
-            self.pos_atk = True
-        else:
-            self.pos_atk = False
 
     def cambiarOrientacion(self):
         if self.visibilidad: 
@@ -133,11 +127,6 @@ class CartaTrampa(CartaYugiOh):
     def __init__(self, nombre, descripcion, tipo_atributo):
         super().__init__(1, nombre, descripcion, 0, 0)
         self.tipo_atributo = tipo_atributo
-
-    def validarJugada(self, Tablero):
-        for elem in Tablero:
-            if elem is CartaMonstruo & self.tipo_atributo == elem.tipo_atributo:
-                return True
     
     def __str__(self):
         if self.visibilidad:
