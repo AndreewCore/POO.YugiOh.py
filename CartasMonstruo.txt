@@ -1,20 +1,40 @@
-2500, Mago Oscuro, Un mago con grandes habilidades., 2500, 2100, LANZADOR_DE_CONJUROS, OSCURIDAD
-3000, Dragon Blanco, Un dragon temido en batalla., 3000, 2500, DRAGON, LUZ
-1200, Esqueleto Zombi, Un esqueleto que revive constantemente., 1200, 800, ZOMBI, TIERRA
-1800, Guerrero de la Luz, Un guerrero que lucha por la justicia., 1800, 1500, GUERRERO, LUZ
-2000, Bestia de Fuego, Una bestia que lanza llamas., 2000, 1200, BESTIA, FUEGO
-2800, Demonio del Abismo, Una criatura de las sombras., 2800, 2300, DEMONIO, OSCURIDAD
-2100, Dragon Marino, Un dragon que habita el oceano., 2100, 1900, DRAGON, AGUA
-800, Zombi Errante, Un zombi sin rumbo fijo., 800, 600, ZOMBI, OSCURIDAD
-1600, Guerrero de la Tierra, Protector de las tierras sagradas., 1600, 2000, GUERRERO, TIERRA
-1500, Aguila del Viento, Un aguila que domina los cielos., 1500, 1300, BESTIA, VIENTO
-2600, Dragon Infernal, Un dragon que respira fuego., 2600, 1700, DRAGON, FUEGO
-2400, Caballero Oscuro, Un caballero de la noche., 2400, 2100, GUERRERO, OSCURIDAD
-2200, Fenix Ardiente, Un ave que resurge de las cenizas., 2200, 1800, BESTIA, FUEGO
-1400, Sirena Encantadora, Una criatura marina mistica., 1400, 1000, LANZADOR_DE_CONJUROS, AGUA
-1300, Zombi del Desierto, Un zombi que emerge de las arenas., 1300, 1200, ZOMBI, TIERRA
-1600, Lobo del Norte, Un lobo que aulla al viento., 1600, 1400, BESTIA, VIENTO
-1900, Guerrero de Hielo, Un guerrero con poderes helados., 1900, 1600, GUERRERO, AGUA
-1000, Demonio Menor, Un demonio con habilidades basicas., 1000, 800, DEMONIO, OSCURIDAD
-2400, Dragon del Trueno, Un dragon que controla tormentas., 2400, 2000, DRAGON, VIENTO
-2200, Leon de Fuego, Un feroz leon con llamas en su melena., 2200, 1800, BESTIA, FUEGO
+2500, Mago Oscuro, Un mago con grandes habilidades.,2500,2100, LANZADOR_DE_CONJUROS, OSCURIDAD
+3000, Dragon Blanco, Un dragon temido en batalla.,3000,2500, DRAGON, LUZ
+1200, Esqueleto Zombi, Un esqueleto que revive constantemente.,1200,800, ZOMBI, TIERRA
+1800, Guerrero de la Luz, Un guerrero que lucha por la justicia.,1800,1500, GUERRERO, LUZ
+2000, Bestia de Fuego, Una bestia que lanza llamas.,2000,1200, BESTIA, FUEGO
+2800, Demonio del Abismo, Una criatura de las sombras.,2800,2300, DEMONIO, OSCURIDAD
+2100, Dragon Marino, Un dragon que habita el oceano.,2100,1900, DRAGON, AGUA
+800, Zombi Errante, Un zombi sin rumbo fijo.,800,600, ZOMBI, OSCURIDAD
+1600, Guerrero de la Tierra, Protector de las tierras sagradas.,1600,2000, GUERRERO, TIERRA
+1500, Aguila del Viento, Un aguila que domina los cielos.,1500,1300, BESTIA, VIENTO
+2600, Dragon Infernal, Un dragon que respira fuego.,2600,1700, DRAGON, FUEGO
+2400, Caballero Oscuro, Un caballero de la noche.,2400,2100, GUERRERO, OSCURIDAD
+2200, Fenix Ardiente, Un ave que resurge de las cenizas.,2200,1800, BESTIA, FUEGO
+1400, Sirena Encantadora, Una criatura marina mistica.,1400,1000, LANZADOR_DE_CONJUROS, AGUA
+1300, Zombi del Desierto, Un zombi que emerge de las arenas.,1300,1200, ZOMBI, TIERRA
+1600, Lobo del Norte, Un lobo que aulla al viento.,1600,1400, BESTIA, VIENTO
+1900, Guerrero de Hielo, Un guerrero con poderes helados.,1900,1600, GUERRERO, AGUA
+1000, Demonio Menor, Un demonio con habilidades basicas.,1000,800, DEMONIO, OSCURIDAD
+2400, Dragon del Trueno, Un dragon que controla tormentas.,2400,2000, DRAGON, VIENTO
+2200, Leon de Fuego, Un feroz leon con llamas en su melena.,2200,1800, BESTIA, FUEGO
+2600, Dragon de Cristal, Un dragón resplandeciente como el cristal.,2600,2300, DRAGON, LUZ
+1400, Vampiro Nocturno, Una criatura que se alimenta en la oscuridad.,1400,1200, ZOMBI, OSCURIDAD
+2000, Guerrero del Sol, Un guerrero que brilla con la luz del día.,2000,1700, GUERRERO, LUZ
+1800, Serpiente Marina, Una serpiente gigante que acecha en el agua.,1800,1500, BESTIA, AGUA
+3000, Fenix de Hielo, Un ave legendaria que congela todo a su paso.,3000,2700, BESTIA, AGUA
+2400, Demonio Infernal, Una criatura nacida en las llamas.,2400,2000, DEMONIO, FUEGO
+1600, Murcielago Sombrío, Un murciélago que vuela silenciosamente.,1600,1400, BESTIA, OSCURIDAD
+2200, Guardian de la Naturaleza, Un protector de los bosques.,2200,1800, GUERRERO, TIERRA
+1500, Aguila de Tormenta, Un águila que vuela entre relámpagos.,1500,1200, BESTIA, VIENTO
+2700, Dragon Escarlata, Un dragón con escamas de color rojo brillante.,2700,2300, DRAGON, FUEGO
+1300, Espectro Errante, Un espíritu que vaga eternamente.,1300,1000, ZOMBI, OSCURIDAD
+1900, Guerrero Fantasmal, Un guerrero envuelto en misterio.,1900,1700, GUERRERO, OSCURIDAD
+2000, Bestia Lunar, Una criatura que caza bajo la luz de la luna.,2000,1600, BESTIA, LUZ
+1800, Caballero de las Olas, Un defensor de los mares.,1800,1500, GUERRERO, AGUA
+1200, Cuervo Maligno, Un cuervo que anuncia la desgracia.,1200,1000, BESTIA, OSCURIDAD
+1400, Hechicero del Bosque, Un mago que domina la magia natural.,1400,1100, LANZADOR_DE_CONJUROS, TIERRA
+2600, Dragon de Lava, Un dragón que escupe lava ardiente.,2600,2100, DRAGON, FUEGO
+1500, Sirena de las Profundidades, Una sirena con un canto encantador.,1500,1200, LANZADOR_DE_CONJUROS, AGUA
+2400, Demonio del Trueno, Un demonio que controla rayos y tormentas.,2400,2000, DEMONIO, VIENTO
+2200, Tigre Solar, Un tigre con un resplandor celestial.,2200,1800, BESTIA, LUZ

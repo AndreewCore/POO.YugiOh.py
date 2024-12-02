@@ -1,20 +1,20 @@
-Espada de Arturo, Incrementa el ataque de una carta Guerrera en el campo., 200, 0,, GUERRERO
-Escudo de Chamelote, Incrementa la defensa de una carta Guerrera en el campo., 0, 200, GUERRERO
-Rugido del Dragón, Incrementa el ataque de una carta Dragón en el campo., 300, 0, DRAGON
-Escamas del Dragón, Incrementa la defensa de una carta Dragón en el campo., 0, 300, DRAGON
-Varita del Mago, Incrementa el ataque de una carta Lanzadora de Conjuros en el campo., 150, 0, LANZADOR_DE_CONJUROS
-Protección Mágica, Incrementa la defensa de una carta Lanzadora de Conjuros en el campo., 0, 150, LANZADOR_DE_CONJUROS
-Colmillo de Bestia, Incrementa el ataque de una carta Bestia en el campo., 250, 0, BESTIA
-Piel de Bestia, Incrementa la defensa de una carta Bestia en el campo., 0, 250, BESTIA
-Espinas Oscuras, Incrementa el ataque de una carta Demonio en el campo., 300, 0, DEMONIO
-Escudo Demoníaco, Incrementa la defensa de una carta Demonio en el campo., 0, 300, DEMONIO
-Lanza Mágica, Incrementa el ataque de una carta Lanzadora de Conjuros en el campo., 0, 200, LANZADOR_DE_CONJUROS
-Dragón de Fuego, Incrementa el ataque de una carta Dragón en el campo., 0, 300, DRAGON
-Zombi Vengador, Incrementa la defensa de una carta Zombi en el campo., 0, 400, ZOMBI
-Guerrero Imparable, Incrementa el ataque de una carta Guerrero en el campo en un 50% cuando está en ataque., 0, 500, GUERRERO
-Bestia del Bosque, Incrementa la defensa de una carta Bestia en el campo., 0, 100, BESTIA
-Demonio Asesino, Incrementa el ataque de una carta Demonio en el campo cada vez que destruye un monstruo enemigo., 0, 600, DEMONIO
-Hechicero Oscuro, Incrementa la defensa de una carta Lanzadora de Conjuros en el campo., 0, 0, LANZADOR_DE_CONJUROS
-Dragón de Acero, Incrementa la defensa de una carta Dragón en el campo., 0, 800, DRAGON
-Zombi Imparable, Incrementa la defensa de una carta Zombi en el campo., 0, 700, ZOMBI
-Guerrero Legendario, Incrementa el ataque de una carta Guerrero en el campo., 0, 400, GUERRERO
+Espada de Arturo, Incrementa el ataque de una carta Guerrera en el campo.,200,0, GUERRERO
+Escudo de Chamelote, Incrementa la defensa de una carta Guerrera en el campo.,0,200, GUERRERO
+Rugido del Dragon, Incrementa el ataque de una carta Dragon en el campo.,300,0, DRAGON
+Escamas del Dragon, Incrementa la defensa de una carta Dragon en el campo.,0,300, DRAGON
+Varita del Mago, Incrementa el ataque de una carta Lanzadora de Conjuros en el campo.,150,0, LANZADOR_DE_CONJUROS
+Protección Magica, Incrementa la defensa de una carta Lanzadora de Conjuros en el campo.,0,150, LANZADOR_DE_CONJUROS
+Colmillo de Bestia, Incrementa el ataque de una carta Bestia en el campo.,250,0, BESTIA
+Piel de Bestia, Incrementa la defensa de una carta Bestia en el campo.,0,250, BESTIA
+Espinas Oscuras, Incrementa el ataque de una carta Demonio en el campo., 300,0, DEMONIO
+Escudo Demoniaco, Incrementa la defensa de una carta Demonio en el campo.,0,300, DEMONIO
+Lanza Mágica, Incrementa el ataque de una carta Lanzadora de Conjuros en el campo.,0,200, LANZADOR_DE_CONJUROS
+Dragon de Fuego, Incrementa el ataque de una carta Dragon en el campo.,0,300, DRAGON
+Zombi Vengador, Incrementa la defensa de una carta Zombi en el campo.,0,400, ZOMBI
+Guerrero Imparable, Incrementa la defensa de una carta Guerrero en el campo en 500.,0,500, GUERRERO
+Bestia del Bosque, Incrementa la defensa de una carta Bestia en el campo.,0,100, BESTIA
+Demonio Asesino, Incrementa el ataque de una carta Demonio en el campo cada vez que destruye un monstruo enemigo.,0,600, DEMONIO
+Hechicero Oscuro, Incrementa la defensa de una carta Lanzadora de Conjuros en el campo.,0,0, LANZADOR_DE_CONJUROS
+Dragon de Acero, Incrementa la defensa de una carta Dragon en el campo.,0,800, DRAGON
+Zombi Imparable, Incrementa la defensa de una carta Zombi en el campo.,0,700, ZOMBI
+Guerrero Legendario, Incrementa el ataque de una carta Guerrero en el campo.,0,400, GUERRERO

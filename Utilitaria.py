@@ -1,36 +1,41 @@
 import Cartas
-import random as random
+import random
 
 class Utilitaria:
 
   @staticmethod
   def crearDeck():
     deck = []
-    f = open("Cartas Monstruo".txt, "r")
-    while (len(deck) < 20):
-      for linea in f:
-        vida, nombre, descripcion, ataque, defensa, tipo_monstruo, tipo_atributo = linea.strip().split(',')
-        carta = Cartas.CartaMonstruo(id, int(vida), nombre, descripcion, int(ataque), int(defensa), tipo_monstruo, tipo_atributo)
-        deck.append(carta)
+
+    deckMonstruo = []
+    f = open("CartasMonstruo.txt", "r")
+    for linea in f:
+      vida, nombre, descripcion, ataque, defensa, tipo_monstruo, tipo_atributo = linea.strip().split(',')
+      carta = Cartas.CartaMonstruo(int(vida), nombre, descripcion, int(ataque), int(defensa), tipo_monstruo, tipo_atributo)
+      deckMonstruo.append(carta)
+    f.close()
+
+    deckMagia = []
+    f = open("CartasMagia.txt", "r")
+    for linea in f:
+      nombre, descripcion, ataque, defensa, tipo_monstruo = linea.strip().split(',')
+      carta = Cartas.CartaMagia(nombre, descripcion, int(ataque), int(defensa), tipo_monstruo)
+      deckMagia.append(carta)
+    f.close()
+
+    deckTrampa = []
+    f = open("CartasTrampa.txt", "r")
+    for linea in f:
+      nombre, descripcion, tipo_atributo = linea.strip().split(',')
+      carta = Cartas.CartaTrampa(nombre, descripcion, tipo_atributo)
+      deckTrampa.append(carta)
+    f.close()
     
-    while (len(deck) < 25):
-      f = open("CartasMagia".txt, "r")
-      for linea in f:
-        valor = random.randint(0,10)
-        if valor < 2:
-          f.readline()
-        nombre, descripcion, ataque, defensa, tipo_monstruo = linea.strip().split(',')
-        carta = Cartas.CartaMagia(id, nombre, descripcion, int(ataque), int(defensa), tipo_monstruo)
-        deck.append(carta)
+    random.shuffle(deckMonstruo)
+    random.shuffle(deckMagia)
+    random.shuffle(deckTrampa)
     
-    while (len(deck) < 30):
-      f = open("CartasTrampa".txt, "r")
-      for linea in f:
-        valor = random.randint(0,10)
-        if valor < 2:
-          f.readline()
-        nombre, descripcion, tipo_atributo = linea.strip().split(',')
-        carta = Cartas.CartaMagia(id, nombre, descripcion, tipo_atributo)
-        deck.append(carta)
-    
-    return random.shuffle(deck)
+    deck = deckMonstruo[:20] + deckMagia[:5] + deckTrampa[:5]
+    random.shuffle(deck)
+
+    return deck
